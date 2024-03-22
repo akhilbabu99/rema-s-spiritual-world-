@@ -155,7 +155,7 @@ const ResizeHeader = () => {
         document.documentElement.clientWidth ||
         document.getElementsByTagName("body")[0].clientWidth;
 
-    if (width <= 815) {
+    if (width <= 1400) {
         if (document.getElementsByClassName("hamburger").length <= 0) {
             let header = document.getElementsByClassName("header")[0];
             let main_nav = header.getElementsByClassName("main-nav")[0];
